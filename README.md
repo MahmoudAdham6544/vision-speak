@@ -27,11 +27,17 @@ Whether you're building assistive tech for the visually impaired or creating met
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/vision_speak.git
+git clone https://github.com/MahmoudAdham6544/vision-speak.git
 cd vision_speak
 
-# Activate environment (assuming conda)
+# Create environment (assuming conda)
+conda create --name vision_speak
+
+# Activate environment
 conda activate vision_speak
+
+#install requirements
+pip install -r -U requirements.txt
 
 # Run the main script
 python main.py --image_path path/to/image.jpg
